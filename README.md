@@ -3,7 +3,7 @@
 This project implements an **upwind finite difference scheme** to solve the 1D linear transport equation:
 
 \[
-\partial_t u + a\,\partial_x u = 0
+\ du/dt + a du/dx = 0
 \]
 
 It includes:
@@ -45,5 +45,3 @@ Upwind is stable but **diffusive**: it smooths gradients and discontinuities.
 This can be interpreted as adding a numerical viscosity term (modified equation viewpoint).
 
 ---
-
-## Project structure (suggested)
